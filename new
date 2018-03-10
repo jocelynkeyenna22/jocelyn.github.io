@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="jocelyn.github.io\webdesign3\html and css\toyota1.css">
+<img id="img1" src="\webdesign3\Images\red_banner_top.gif">
+<br>
+<img id="img2" src="jocelyn.github.io\webdesign3\Images\toyota-banner.png">
+</head>
+<body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<h2><b> Explore all Vehicles </b></h2>
+
+<table>
+<tr><th> <a href="jocelyn.github.io\webdesign3\html and css\carsnminivan.html">Cars & Minivans</a></th>
+<th><a href="jocelyn.github.io\webdesign3\html and css\trucks.html"> Trucks</a></th>
+<th><a href="jocelyn.github.io\webdesign3\html and css\crossovernsuvs.html">Crossovers & SUVS</a></th>
+<th><a href="jocelyn.github.io\webdesign3\html and css\hybridnfcv.html"> Hybrids & FCVS </a></th>
+<th><a href="jocelyn.github.io\webdesign3\html and css\upcoming.html"> Upcoming Vehicles</a></th>
+</tr>
+
+</table>
+
+<img class="images" src="jocelyn.github.io\webdesign3\Images\camry-front.jpg">
+<img class="images" src="jocelyn.github.io\webdesign3\Images\tacoma-front.jpg">
+<img class="images" src="jocelyn.github.io\webdesign3\Images\highlander-front.jpg">
+<img class="images" src="jocelyn.github.io\webdesign3\Images\rav4hybrid-front.jpg">
+<img class="images" src="jocelyn.github.io\webdesign3\images\priusc-front.jpg">
+
+</body>
+
+
+
+</html>
