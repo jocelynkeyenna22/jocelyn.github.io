@@ -7,4 +7,4 @@
 Below is a copy of my resume
 <a href="newresume.htm">Resume</a>
 <p> I have some completed some projects</p>
-<a href="new"> Car</a>
+<a href="toyota.html"> Car</a>
