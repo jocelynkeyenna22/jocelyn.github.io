@@ -1,0 +1,87 @@
+<!--Create other functions to change output on
+the calcualtor screen -->
+
+<html>
+<head>
+    <title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator1.css">
+</head>
+<script type="text/javascript">
+flag = 0;
+function fact(x)
+{
+factvar=1;
+for (i=1;i<=x;i++)
+{
+factvar=factvar*i;
+}
+return factvar;
+}
+function fact_function(x)
+{
+flag+=1;
+Calc.Input.value+='fact(';
+}
+
+</script>
+<body>
+
+    <FORM NAME="Calc">
+<table>
+<tr>
+
+<td>
+
+<br>
+<INPUT TYPE="text"   NAME="Input" Size="40" >
+<br>
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" name="comma" value=" , " onclick="Calc.Input.value += ','">
+<INPUT TYPE="button" NAME="operator" VALUE=" x!" OnClick="fact_function()">
+<INPUT TYPE="button" NAME="open" VALUE=" (" OnClick="Calc.Input.value += '('">
+<INPUT TYPE="button" NAME="close" VALUE=" )" OnClick="Calc.Input.value += ')'">
+<INPUT TYPE="button" NAME="operator" VALUE=" %" OnClick="Calc.Input.value += '%'">
+<INPUT TYPE="button" NAME="operator" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<br>
+
+<INPUT TYPE="button" NAME="operator" VALUE=" sin " OnClick="Calc.Input.value += 'Math.sin(';">
+<INPUT TYPE="button" NAME="operator" VALUE=" ln " OnClick="Calc.Input.value += 'Math.log('">
+<INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += 7">
+<INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calc.Input.value += 8">
+<INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += 9">
+<INPUT TYPE="button" NAME="operator"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+
+<br>
+<INPUT TYPE="button" NAME="operator"  VALUE=" cos " OnClick="Calc.Input.value+= 'Math.cos('">
+<INPUT TYPE="button" NAME="operator"  VALUE=" log " OnClick="Calc.Input.value = Math.log10(Calc.Input.value)">
+<INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calc.Input.value += '4'">
+<INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'">
+<INPUT TYPE="button" NAME="operator" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+
+<br>
+<INPUT TYPE="button" NAME="operator"  VALUE=" tan " OnClick="Calc.Input.value += 'Math.tan('">
+<INPUT TYPE="button" NAME="operator"  VALUE=" sqrt " OnClick="Calc.Input.value += 'Math.sqrt('">
+<INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+<INPUT TYPE="button" NAME="operator" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+
+<br>
+<INPUT TYPE="button" NAME="operator"  VALUE=" EXP " OnClick="Calc.Input.value = Math.exp(Calc.Input.value) ">
+<INPUT TYPE="button" NAME="operator"  VALUE=" x^y" OnClick="Calc.Input.value += 'Math.pow('">
+<INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+<INPUT TYPE="button" NAME="decimal"  VALUE=" . " OnClick="Calc.Input.value += '.'">
+<INPUT TYPE="button" NAME="operator"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<INPUT TYPE="button" NAME="operator"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+
+<br>
+</td>
+</tr>
+</table>
+</form>
+
+</html>
