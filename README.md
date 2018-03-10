@@ -7,4 +7,4 @@
 Below is a copy of my resume
 <a href="newresume.htm">Resume</a>
 <p> I have some completed some projects</p>
-<a href="\jocelyn.github.io\webdesign3\htmlandcss\toyota.html"> Car</a>
+<a href="webdesign3\htmlandcss"> Car</a>
