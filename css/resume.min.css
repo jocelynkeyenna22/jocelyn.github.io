@@ -4,7 +4,7 @@ body {
   color: #868e96;
   background:url("back.jpg");
   background-repeat: no-repeat;
-background-size: auto;
+  background-size: auto;
 }
 
 @media (min-width: 992px) {
